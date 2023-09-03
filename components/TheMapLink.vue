@@ -28,7 +28,7 @@ export default {
   margin-top: 45px;
   // .map__link
 
-  &__link {}
+  // &__link {}
 
   // .map__link-img
 

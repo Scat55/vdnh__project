@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
 .map {
-  margin-top: 45px;
+  margin-top: 2.813rem;
   // .map__link
 
   // &__link {}
@@ -42,13 +42,13 @@ export default {
 
   &__link-btn {
     position: absolute;
-    bottom: 60px;
-    left: 283px;
-    border-radius: 36px;
+    bottom: 3.75rem;
+    left: 17.688rem;
+    border-radius: 2.25rem;
     background: #fff;
-    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.20);
-    height: 140px;
-    padding: 20px 38px;
+    box-shadow: 0rem 0.375rem 1.125rem 0rem rgba(0, 0, 0, 0.20);
+    height: 8.75rem;
+    padding: 1.25rem 2.375rem;
     transition: all .3s;
 
     &:hover {
@@ -59,16 +59,12 @@ export default {
   // .map__link-btn-title
 
   &__link-btn-title {
-    font-size: 42px;
+    font-size: 2.625rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 60px;
+    line-height: 3.75rem;
     color: #0D1421;
     text-align: center;
-
-
-
-
   }
 }
 </style>

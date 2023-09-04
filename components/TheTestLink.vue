@@ -21,13 +21,13 @@ export default {
 
 <style lang="scss" scoped>
 .test {
-  border-radius: 48px;
-  border: 3px solid #EBEBEB;
+  border-radius: 3rem;
+  border: 0.188rem solid #EBEBEB;
   background: #FFF;
-  box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.04);
-  padding: 48px;
-  width: 936px;
-  margin-top: 48px;
+  box-shadow: 0rem 0.75rem 0.75rem 0rem rgba(0, 0, 0, 0.04);
+  padding: 3rem;
+  width: 58.5rem;
+  margin-top: 3rem;
   position: relative;
   transition: all .3s;
 
@@ -42,10 +42,10 @@ export default {
   // .test__text-title
 
   &__text-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 72px;
+    line-height: 4.5rem;
     color: #0D1421;
   }
 
@@ -54,19 +54,19 @@ export default {
   &__text-subtitle {
     overflow: hidden;
     color: #667085;
-    font-size: 42px;
+    font-size: 2.625rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 60px;
-    width: 848px;
+    line-height: 3.75rem;
+    width: 53rem;
   }
 
   // .test__img
 
   &__img {
     position: absolute;
-    top: -30px;
-    right: 120px;
+    top: -1.875rem;
+    right: 7.5rem;
   }
 
 

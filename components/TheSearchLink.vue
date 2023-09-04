@@ -19,7 +19,16 @@
     </div>
     <div class="search__link-text">
       <span class="search__link-title">Хотите поступить?</span>
-      <span class="search__link-subtitle">Учебное заведение. Специальность</span>
+
+      <div class="search__link-text-info">
+        <span class="search__link-subtitle">Учебное заведение </span>
+        <img
+          src="../assets/images/point.svg"
+          alt="Point"
+          class="search__link-text-img"
+        >
+        <span class="search__link-subtitle">Специальность</span>
+      </div>
     </div>
   </div>
 </template>
@@ -33,17 +42,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 48px;
-    border: 3px solid #EBEBEB;
-    gap: 24px;
-    padding: 48px 42px;
-    width: 936px;
+    border-radius: 3rem;
+    border: 0.188rem solid #EBEBEB;
+    gap: 1.5rem;
+    padding: 3rem 2.625rem;
+    width: 58.5rem;
   }
 
   // .search__link-img
 
   &__link-img {
     display: inline-block;
+    margin-right: 3rem;
   }
 
   // .search__link-text
@@ -51,15 +61,26 @@
   &__link-text {
     display: flex;
     flex-direction: column;
+
+    &-info {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    &-img {
+      width: 0.375rem;
+      height: 0.375rem;
+    }
   }
 
   // .search__link-title
 
   &__link-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 72px;
+    line-height: 4.5rem;
     color: #0D1421;
     padding: 0;
   }
@@ -67,10 +88,10 @@
   // .search__link-subtitle
 
   &__link-subtitle {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 54px;
+    line-height: 3.375rem;
     color: #667085;
     padding: 0;
   }

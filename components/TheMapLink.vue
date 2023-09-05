@@ -32,6 +32,13 @@ export default {
 
   &__link-img {
     position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
   }
 
   // .map__link-btn

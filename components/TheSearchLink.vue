@@ -78,7 +78,6 @@
 
   &__link-title {
     font-size: 3rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 4.5rem;
     color: #0D1421;
@@ -89,7 +88,6 @@
 
   &__link-subtitle {
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 3.375rem;
     color: #667085;

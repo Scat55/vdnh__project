@@ -1,35 +1,30 @@
 <template>
   <div style="height:100vh; width:100vw">
-    <LMap
+    <l-map
       ref="map"
       :zoom="zoom"
       :center="center"
     >
-      <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <LMarker :lat-lng="[52.617558, 39.618794]">
-        <LIcon :icon-anchor="staticAnchor">
+      <l-tileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+      <l-marker :lat-lng="[52.617558, 39.618794]">
+        <l-icon :icon-anchor="staticAnchor">
           <img
             class="univers__img"
             src="../assets/images/univers.png"
           >
-        </LIcon>
-        <LPopup class="popup">
-          <p>ЛГПУ</p>
-        </LPopup>
-      </LMarker>
+        </l-icon>
+      </l-marker>
 
-      <LMarker :lat-lng="[52.602044, 39.504744]">
-        <LIcon :icon-anchor="staticAnchor">
+      <l-marker :lat-lng="[52.602044, 39.504744]">
+        <l-icon :icon-anchor="staticAnchor">
           <img
             class="univers__img"
             src="../assets/images/SPO.png"
           >
-        </LIcon>
-        <LPopup class="popup">
-          <p>ЛГТУ</p>
-        </LPopup>
-      </LMarker>
-    </LMap>
+        </l-icon>
+
+      </l-marker>
+    </l-map>
   </div>
 </template>
 
@@ -50,9 +45,5 @@ export default {
 .univers__img {
   max-width: 6.75rem;
   max-height: 6.75rem;
-}
-
-.popup {
-  font-size: 42px;
 }
 </style>

@@ -13,5 +13,8 @@ export default defineNuxtConfig({
   ],
   modules: [
     'nuxt3-leaflet'
-  ]
-})
+  ], 
+});
+module.exports ={
+  publicPath: '/vdnh/'
+}

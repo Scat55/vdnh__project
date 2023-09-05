@@ -82,6 +82,10 @@
     line-height: 4.5rem;
     color: #0D1421;
     padding: 0;
+
+    // @media(min-width: 950px) and (max-width: 1012px) {
+    //   font-size: 2.7rem;
+    // }
   }
 
   // .search__link-subtitle
@@ -92,6 +96,10 @@
     line-height: 3.375rem;
     color: #667085;
     padding: 0;
+
+    // @media(min-width: 950px) and (max-width: 1012px) {
+    //   font-size: 2rem;
+    // }
   }
 }
 </style>

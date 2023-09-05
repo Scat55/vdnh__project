@@ -34,7 +34,6 @@ export default {
     position: relative;
     display: flex;
     justify-content: center;
-    width: 100%;
 
     img {
       width: 100%;
@@ -57,6 +56,10 @@ export default {
     line-height: 3.75rem;
     color: #0D1421;
     text-align: center;
+
+    // @media(min-width: 950px) and (max-width: 1012px) {
+    //   left: 13.688rem;
+    // }
   }
 
 }

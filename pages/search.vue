@@ -56,12 +56,22 @@ export default {
   &__btn {
     padding: 72px 0 48px 72px;
     cursor: pointer;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      width: 44px;
+      height: 44px;
+      padding: 24px 0 24px 24px;
+    }
   }
 
   &__content {
     padding: 72px;
     border-radius: 48px 48px 0px 0px;
     background-color: #fff;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      padding: 24px;
+    }
 
     &-info {
       position: relative;
@@ -78,6 +88,15 @@ export default {
       font-weight: 400;
       line-height: 72px;
       outline: none;
+
+      @media (min-width: 360px) and (max-width: 480px) {
+        padding: 16px;
+        font-size: 16px;
+        border-radius: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
 
       &::-ms-clear {
         display: none;
@@ -104,6 +123,13 @@ export default {
       top: 60px;
       right: 50px;
       cursor: pointer;
+
+      @media (min-width: 360px) and (max-width: 480px) {
+        width: 20px;
+        height: 20px;
+        top: 21px;
+        right: 20px;
+      }
     }
   }
 

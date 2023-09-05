@@ -26,6 +26,10 @@ export default {
 .map {
   &__link {
     margin-top: 2.813rem;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      margin-top: 16px;
+    }
   }
 
   // .map__link-img
@@ -34,7 +38,7 @@ export default {
     position: relative;
     display: flex;
     justify-content: center;
-    width: 100%;
+    // width: 100%;
 
     img {
       width: 100%;
@@ -57,6 +61,19 @@ export default {
     line-height: 3.75rem;
     color: #0D1421;
     text-align: center;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      // display: none;
+
+      padding: 10px 16px;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      border-radius: 12px;
+      bottom: 2rem;
+      left: 6.6rem;
+    }
   }
 
 }

@@ -47,11 +47,20 @@ export default {}
   margin-top: 3rem;
   position: relative;
 
+  @media (min-width: 360px) and (max-width: 480px) {
+    margin-top: 16px;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 16px;
+  }
+
   // .test__text-title
   &__text {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding: 0;
+    // margin-top: 16px;
   }
 
   &__text-title {
@@ -59,6 +68,12 @@ export default {}
     font-weight: 500;
     line-height: 4.5rem;
     color: #0D1421;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
   }
 
   // .test__text-subtitle
@@ -69,6 +84,12 @@ export default {}
     font-size: 2.625rem;
     font-weight: 400;
     line-height: 3.75rem;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+    }
   }
 
   // .test__img
@@ -77,6 +98,13 @@ export default {}
     position: absolute;
     top: -1.875rem;
     right: 1.5rem;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      width: 94px;
+      height: 94px;
+      right: 0px;
+      top: -13px;
+    }
   }
 }
 </style>

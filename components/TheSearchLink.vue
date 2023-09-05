@@ -46,7 +46,17 @@
     border: 0.188rem solid #EBEBEB;
     gap: 1.5rem;
     padding: 3rem 2.625rem;
-    width: 58.5rem;
+    // width: 58.5rem;
+    width: 100%;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      display: flex;
+      padding: 16px 14px;
+      align-items: center;
+      gap: 8px;
+      // width: 312px;
+      border-radius: 16px;
+    }
   }
 
   // .search__link-img
@@ -54,6 +64,19 @@
   &__link-img {
     display: inline-block;
     margin-right: 3rem;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      margin-right: 0.3rem;
+    }
+
+    svg {
+      @media (min-width: 360px) and (max-width: 480px) {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-right: 1rem;
+      }
+    }
   }
 
   // .search__link-text
@@ -82,6 +105,11 @@
     line-height: 4.5rem;
     color: #0D1421;
     padding: 0;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      font-size: 1rem;
+      line-height: 24px;
+    }
   }
 
   // .search__link-subtitle
@@ -92,6 +120,13 @@
     line-height: 3.375rem;
     color: #667085;
     padding: 0;
+
+    @media (min-width: 360px) and (max-width: 480px) {
+      font-size: 12px;
+      line-height: 18px;
+
+    }
+
   }
 }
 </style>
